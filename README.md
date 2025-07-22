@@ -18,10 +18,12 @@
 3.1. Clonar el repositorio:
 	git clone [URL_DEL_REPOSITORIO]
 	cd mi-backend-api
+
 3.2. Instalar dependencias:
 	npm install
 	o
 	yarn install
+
 4.- 🏃 Ejecución
 Para iniciar el servidor en desarrollo:
 	npm start
@@ -51,17 +53,8 @@ Para ejecutar pruebas (si existen):
 mi-backend-api/
 ├── node_modules/
 ├── src/
-│   ├── app.js          # Configuración principal de Express
-│   ├── routes/         # Definición de rutas
-│   └── controllers/    # Lógica de los endpoints
-├── .env                # Variables de entorno (opcional)
+│   ├── index.js          # Configuración principal de Express
 ├── package.json
 └── README.md
-9.- 🤝 Contribución
-Haz fork del proyecto
-Crea una rama (git checkout -b feature/nueva-funcionalidad)
-Haz commit de tus cambios (git commit -am 'Añade nueva funcionalidad')
-Haz push a la rama (git push origin feature/nueva-funcionalidad)
-Abre un Pull Request
 
 > ⌨️ Atentamente, María Alina Vargas García
